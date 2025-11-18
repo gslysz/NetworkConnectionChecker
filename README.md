@@ -2,6 +2,8 @@
 
 A web-based application that monitors network connectivity in real-time by testing internet connections every second for up to one hour.
 
+Try it out here!  https://gslysz.github.io/NetworkConnectionChecker/
+
 ## Features
 
 - **Real-time Monitoring**: Tests network connectivity every second
