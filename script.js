@@ -153,12 +153,12 @@ class NetworkChecker {
         // Start the monitoring interval
         this.intervalId = setInterval(() => this.performConnectivityTest(), 1000);
         
-        // Stop automatically after 1 hour
+        // Stop automatically after 8 hours
         setTimeout(() => {
             if (this.isRunning) {
                 this.stopMonitoring();
             }
-        }, 60 * 60 * 1000); // 1 hour = 60 * 60 * 1000 milliseconds
+        }, 8 * 60 * 60 * 1000); // 8 hours = 8 * 60 * 60 * 1000 milliseconds
         
         // Update elapsed time display
         this.updateElapsedTime();
